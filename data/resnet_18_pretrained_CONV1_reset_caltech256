@@ -1,0 +1,208 @@
+seed = 42
+
+1.) Baseline
+Epoch 1/15 | Train Loss: 3.0721, Acc: 0.3568 | Val Loss: 2.1065, Acc: 0.5111, Top_5_acc : 0.7434 
+{'conv1': 0.4591, 'layer1': 0.9473, 'layer2': 0.3822, 'layer3': 0.2187, 'layer4': 0.7844, 'avgpool': 0.7844, 'fc': 6.2862}
+Epoch 2/15 | Train Loss: 1.4924, Acc: 0.6335 | Val Loss: 1.7685, Acc: 0.5817, Top_5_acc : 0.7996 
+{'conv1': 0.4519, 'layer1': 1.1587, 'layer2': 0.412, 'layer3': 0.2814, 'layer4': 0.9521, 'avgpool': 0.9521, 'fc': 9.1821}
+Epoch 3/15 | Train Loss: 0.7896, Acc: 0.7948 | Val Loss: 1.6060, Acc: 0.6354, Top_5_acc : 0.8264 
+{'conv1': 0.562, 'layer1': 1.2403, 'layer2': 0.3803, 'layer3': 0.3204, 'layer4': 0.9854, 'avgpool': 0.9854, 'fc': 10.6159}
+Epoch 4/15 | Train Loss: 0.3570, Acc: 0.9038 | Val Loss: 1.6355, Acc: 0.6372, Top_5_acc : 0.8300 
+{'conv1': 0.5803, 'layer1': 1.1829, 'layer2': 0.3525, 'layer3': 0.2901, 'layer4': 0.9874, 'avgpool': 0.9874, 'fc': 11.486}
+Epoch 5/15 | Train Loss: 0.1480, Acc: 0.9652 | Val Loss: 1.6948, Acc: 0.6405, Top_5_acc : 0.8313 
+{'conv1': 0.6897, 'layer1': 1.2743, 'layer2': 0.357, 'layer3': 0.3405, 'layer4': 1.3984, 'avgpool': 1.3984, 'fc': 16.975}
+Epoch 6/15 | Train Loss: 0.0676, Acc: 0.9875 | Val Loss: 1.4887, Acc: 0.6756, Top_5_acc : 0.8535 
+{'conv1': 0.5709, 'layer1': 1.2183, 'layer2': 0.3757, 'layer3': 0.2956, 'layer4': 1.2145, 'avgpool': 1.2145, 'fc': 14.9153}
+Epoch 7/15 | Train Loss: 0.0498, Acc: 0.9908 | Val Loss: 1.5627, Acc: 0.6676, Top_5_acc : 0.8486 
+{'conv1': 0.7307, 'layer1': 1.298, 'layer2': 0.3699, 'layer3': 0.3264, 'layer4': 1.1378, 'avgpool': 1.1378, 'fc': 14.0379}
+Epoch 8/15 | Train Loss: 0.0276, Acc: 0.9958 | Val Loss: 1.4745, Acc: 0.6898, Top_5_acc : 0.8589 
+{'conv1': 0.6365, 'layer1': 1.207, 'layer2': 0.3427, 'layer3': 0.2909, 'layer4': 0.7553, 'avgpool': 0.7553, 'fc': 9.0938}
+Epoch 9/15 | Train Loss: 0.0109, Acc: 0.9992 | Val Loss: 1.2962, Acc: 0.7187, Top_5_acc : 0.8768 
+{'conv1': 0.5691, 'layer1': 1.1272, 'layer2': 0.3242, 'layer3': 0.2337, 'layer4': 0.8716, 'avgpool': 0.8716, 'fc': 10.0576}
+Epoch 10/15 | Train Loss: 0.0162, Acc: 0.9977 | Val Loss: 1.4599, Acc: 0.6859, Top_5_acc : 0.8607 
+{'conv1': 0.6894, 'layer1': 1.2304, 'layer2': 0.3437, 'layer3': 0.2794, 'layer4': 1.0453, 'avgpool': 1.0453, 'fc': 11.7655}
+Epoch 11/15 | Train Loss: 0.0108, Acc: 0.9991 | Val Loss: 1.2929, Acc: 0.7186, Top_5_acc : 0.8724 
+{'conv1': 0.6814, 'layer1': 1.2777, 'layer2': 0.3687, 'layer3': 0.3102, 'layer4': 0.8542, 'avgpool': 0.8542, 'fc': 9.3406}
+Epoch 12/15 | Train Loss: 0.0041, Acc: 0.9998 | Val Loss: 1.2586, Acc: 0.7254, Top_5_acc : 0.8759 
+{'conv1': 0.5772, 'layer1': 1.197, 'layer2': 0.3544, 'layer3': 0.2827, 'layer4': 0.7846, 'avgpool': 0.7846, 'fc': 8.1378}
+Epoch 13/15 | Train Loss: 0.0032, Acc: 0.9999 | Val Loss: 1.2405, Acc: 0.7264, Top_5_acc : 0.8762 
+{'conv1': 0.6197, 'layer1': 1.1794, 'layer2': 0.3301, 'layer3': 0.2707, 'layer4': 0.743, 'avgpool': 0.743, 'fc': 7.4153}
+Epoch 14/15 | Train Loss: 0.0027, Acc: 1.0000 | Val Loss: 1.2303, Acc: 0.7295, Top_5_acc : 0.8790 
+{'conv1': 0.6441, 'layer1': 1.2284, 'layer2': 0.3518, 'layer3': 0.2894, 'layer4': 0.7266, 'avgpool': 0.7266, 'fc': 7.0665}
+Epoch 15/15 | Train Loss: 0.0025, Acc: 1.0000 | Val Loss: 1.2081, Acc: 0.7308, Top_5_acc : 0.8809 
+{'conv1': 0.5461, 'layer1': 1.1127, 'layer2': 0.322, 'layer3': 0.2397, 'layer4': 0.6983, 'avgpool': 0.6983, 'fc': 6.6684}
+Best run ---> val_acc : 0.7308 |Top5_acc : 0.8809 |val_loss : 1.2081
+2.)Edge + freeze
+Epoch 1/15 | Train Loss: 3.6326, Acc: 0.2921 | Val Loss: 5.7258, Acc: 0.0542, Top_5_acc : 0.1439 
+{'conv1': 0.3582, 'layer1': 0.6672, 'layer2': 0.1925, 'layer3': 0.1266, 'layer4': 0.7548, 'avgpool': 0.7548, 'fc': 6.2037}
+Epoch 2/15 | Train Loss: 1.8229, Acc: 0.5844 | Val Loss: 8.0290, Acc: 0.0402, Top_5_acc : 0.1013 
+{'conv1': 0.4208, 'layer1': 0.7266, 'layer2': 0.1912, 'layer3': 0.1229, 'layer4': 0.6509, 'avgpool': 0.6509, 'fc': 6.5352}
+Epoch 3/15 | Train Loss: 1.3565, Acc: 0.6745 | Val Loss: 6.5998, Acc: 0.0629, Top_5_acc : 0.1552 
+{'conv1': 0.5316, 'layer1': 0.8145, 'layer2': 0.2023, 'layer3': 0.1339, 'layer4': 0.6347, 'avgpool': 0.6347, 'fc': 7.0298}
+Epoch 4/15 | Train Loss: 1.1050, Acc: 0.7218 | Val Loss: 8.6321, Acc: 0.0335, Top_5_acc : 0.0918 
+{'conv1': 0.6085, 'layer1': 0.8184, 'layer2': 0.2126, 'layer3': 0.1401, 'layer4': 0.693, 'avgpool': 0.693, 'fc': 8.2727}
+Epoch 5/15 | Train Loss: 1.4507, Acc: 0.6421 | Val Loss: 1.4288, Acc: 0.6540, Top_5_acc : 0.8594 
+{'conv1': 0.5508, 'layer1': 1.119, 'layer2': 0.3315, 'layer3': 0.2655, 'layer4': 0.666, 'avgpool': 0.666, 'fc': 10.8275}
+Epoch 6/15 | Train Loss: 0.6450, Acc: 0.8221 | Val Loss: 1.3120, Acc: 0.6967, Top_5_acc : 0.8754 
+{'conv1': 0.6291, 'layer1': 1.1544, 'layer2': 0.3464, 'layer3': 0.2751, 'layer4': 0.8817, 'avgpool': 0.8817, 'fc': 14.7073}
+Epoch 7/15 | Train Loss: 0.3032, Acc: 0.9142 | Val Loss: 1.4073, Acc: 0.6736, Top_5_acc : 0.8646 
+{'conv1': 0.6553, 'layer1': 1.1672, 'layer2': 0.3766, 'layer3': 0.3514, 'layer4': 1.2681, 'avgpool': 1.2681, 'fc': 21.6227}
+Epoch 8/15 | Train Loss: 0.1359, Acc: 0.9643 | Val Loss: 1.1210, Acc: 0.7486, Top_5_acc : 0.9041 
+{'conv1': 0.5623, 'layer1': 1.0892, 'layer2': 0.3297, 'layer3': 0.2851, 'layer4': 0.8026, 'avgpool': 0.8026, 'fc': 13.6223}
+Epoch 9/15 | Train Loss: 0.0569, Acc: 0.9873 | Val Loss: 1.2880, Acc: 0.7159, Top_5_acc : 0.8767 
+{'conv1': 0.6311, 'layer1': 1.1431, 'layer2': 0.353, 'layer3': 0.2776, 'layer4': 0.9737, 'avgpool': 0.9737, 'fc': 16.3719}
+Epoch 10/15 | Train Loss: 0.0307, Acc: 0.9945 | Val Loss: 1.0221, Acc: 0.7710, Top_5_acc : 0.9098 
+{'conv1': 0.586, 'layer1': 1.1167, 'layer2': 0.3415, 'layer3': 0.2636, 'layer4': 0.7632, 'avgpool': 0.7632, 'fc': 12.4725}
+Epoch 11/15 | Train Loss: 0.0158, Acc: 0.9981 | Val Loss: 0.9647, Acc: 0.7832, Top_5_acc : 0.9193 
+{'conv1': 0.5005, 'layer1': 1.102, 'layer2': 0.3527, 'layer3': 0.2702, 'layer4': 0.8969, 'avgpool': 0.8969, 'fc': 14.2353}
+Epoch 12/15 | Train Loss: 0.0103, Acc: 0.9988 | Val Loss: 0.8956, Acc: 0.7978, Top_5_acc : 0.9240 
+{'conv1': 0.5486, 'layer1': 1.0788, 'layer2': 0.3503, 'layer3': 0.2531, 'layer4': 1.0912, 'avgpool': 1.0912, 'fc': 16.7623}
+Epoch 13/15 | Train Loss: 0.0040, Acc: 0.9998 | Val Loss: 0.8695, Acc: 0.7989, Top_5_acc : 0.9260 
+{'conv1': 0.5869, 'layer1': 1.1082, 'layer2': 0.3473, 'layer3': 0.256, 'layer4': 1.1553, 'avgpool': 1.1553, 'fc': 17.2245}
+Epoch 14/15 | Train Loss: 0.0033, Acc: 0.9999 | Val Loss: 0.8577, Acc: 0.8056, Top_5_acc : 0.9258 
+{'conv1': 0.5354, 'layer1': 1.0514, 'layer2': 0.3458, 'layer3': 0.2503, 'layer4': 1.1625, 'avgpool': 1.1625, 'fc': 17.043}
+Epoch 15/15 | Train Loss: 0.0024, Acc: 0.9999 | Val Loss: 0.8540, Acc: 0.8043, Top_5_acc : 0.9270 
+{'conv1': 0.5852, 'layer1': 1.0928, 'layer2': 0.3519, 'layer3': 0.2569, 'layer4': 1.2047, 'avgpool': 1.2047, 'fc': 17.4764}
+Best run ---> val_acc : 0.8043 |Top5_acc : 0.9270 |val_loss : 0.8540
+
+
+
+---------------------------------------------
+seed : 3407
+
+1.) Baseline
+Epoch 1/15 | Train Loss: 2.8802, Acc: 0.3907 | Val Loss: 2.0294, Acc: 0.5271, Top_5_acc : 0.7589 
+{'conv1': 0.4206, 'layer1': 1.0119, 'layer2': 0.3269, 'layer3': 0.3263, 'layer4': 0.5154, 'avgpool': 0.5154, 'fc': 4.0919}
+Epoch 2/15 | Train Loss: 1.2248, Acc: 0.6914 | Val Loss: 1.5283, Acc: 0.6297, Top_5_acc : 0.8435 
+{'conv1': 0.4853, 'layer1': 0.9268, 'layer2': 0.2748, 'layer3': 0.2392, 'layer4': 0.5422, 'avgpool': 0.5422, 'fc': 5.1881}
+Epoch 3/15 | Train Loss: 0.6009, Acc: 0.8382 | Val Loss: 1.3642, Acc: 0.6795, Top_5_acc : 0.8644 
+{'conv1': 0.4767, 'layer1': 0.9443, 'layer2': 0.2791, 'layer3': 0.254, 'layer4': 0.3052, 'avgpool': 0.3052, 'fc': 3.2794}
+Epoch 4/15 | Train Loss: 0.2561, Acc: 0.9309 | Val Loss: 1.4252, Acc: 0.6780, Top_5_acc : 0.8625 
+{'conv1': 0.5352, 'layer1': 1.0019, 'layer2': 0.3049, 'layer3': 0.2515, 'layer4': 0.3588, 'avgpool': 0.3588, 'fc': 4.2166}
+Epoch 5/15 | Train Loss: 0.1199, Acc: 0.9708 | Val Loss: 1.3749, Acc: 0.7024, Top_5_acc : 0.8747 
+{'conv1': 0.5445, 'layer1': 0.9545, 'layer2': 0.2766, 'layer3': 0.2293, 'layer4': 0.3524, 'avgpool': 0.3524, 'fc': 4.2012}
+Epoch 6/15 | Train Loss: 0.0642, Acc: 0.9860 | Val Loss: 1.3390, Acc: 0.7148, Top_5_acc : 0.8750 
+{'conv1': 0.5474, 'layer1': 0.9432, 'layer2': 0.2642, 'layer3': 0.2332, 'layer4': 0.8571, 'avgpool': 0.8571, 'fc': 10.1956}
+Epoch 7/15 | Train Loss: 0.0531, Acc: 0.9883 | Val Loss: 1.3974, Acc: 0.7045, Top_5_acc : 0.8706 
+{'conv1': 0.603, 'layer1': 0.9895, 'layer2': 0.294, 'layer3': 0.2326, 'layer4': 0.4494, 'avgpool': 0.4494, 'fc': 5.3411}
+Epoch 8/15 | Train Loss: 0.0440, Acc: 0.9908 | Val Loss: 1.4060, Acc: 0.7092, Top_5_acc : 0.8731 
+{'conv1': 0.6259, 'layer1': 1.051, 'layer2': 0.2813, 'layer3': 0.2495, 'layer4': 0.609, 'avgpool': 0.609, 'fc': 7.2268}
+Epoch 9/15 | Train Loss: 0.0204, Acc: 0.9969 | Val Loss: 1.1588, Acc: 0.7475, Top_5_acc : 0.8969 
+{'conv1': 0.6089, 'layer1': 0.989, 'layer2': 0.2772, 'layer3': 0.2452, 'layer4': 0.7678, 'avgpool': 0.7678, 'fc': 8.9157}
+Epoch 10/15 | Train Loss: 0.0068, Acc: 0.9993 | Val Loss: 1.1305, Acc: 0.7486, Top_5_acc : 0.8999 
+{'conv1': 0.5276, 'layer1': 0.9267, 'layer2': 0.2675, 'layer3': 0.2123, 'layer4': 0.8427, 'avgpool': 0.8427, 'fc': 9.3336}
+Epoch 11/15 | Train Loss: 0.0037, Acc: 0.9999 | Val Loss: 1.0650, Acc: 0.7659, Top_5_acc : 0.9031 
+{'conv1': 0.6022, 'layer1': 1.0218, 'layer2': 0.2964, 'layer3': 0.2438, 'layer4': 0.8179, 'avgpool': 0.8179, 'fc': 8.5653}
+Epoch 12/15 | Train Loss: 0.0047, Acc: 0.9998 | Val Loss: 1.0498, Acc: 0.7698, Top_5_acc : 0.9028 
+{'conv1': 0.5241, 'layer1': 1.0196, 'layer2': 0.288, 'layer3': 0.2329, 'layer4': 0.7816, 'avgpool': 0.7816, 'fc': 7.846}
+Epoch 13/15 | Train Loss: 0.0027, Acc: 0.9999 | Val Loss: 1.0243, Acc: 0.7725, Top_5_acc : 0.9041 
+{'conv1': 0.5198, 'layer1': 1.0032, 'layer2': 0.2817, 'layer3': 0.2375, 'layer4': 0.8127, 'avgpool': 0.8127, 'fc': 7.839}
+Epoch 14/15 | Train Loss: 0.0023, Acc: 1.0000 | Val Loss: 1.0203, Acc: 0.7730, Top_5_acc : 0.9079 
+{'conv1': 0.5469, 'layer1': 1.0113, 'layer2': 0.2852, 'layer3': 0.2412, 'layer4': 0.7962, 'avgpool': 0.7962, 'fc': 7.4336}
+Epoch 15/15 | Train Loss: 0.0022, Acc: 0.9999 | Val Loss: 1.0057, Acc: 0.7774, Top_5_acc : 0.9053 
+{'conv1': 0.5305, 'layer1': 0.991, 'layer2': 0.2791, 'layer3': 0.2336, 'layer4': 0.7824, 'avgpool': 0.7824, 'fc': 7.1864}
+Best run ---> val_acc : 0.7774 |Top5_acc : 0.9053 |val_loss : 1.0057
+2.)Edge + freeze
+Epoch 1/15 | Train Loss: 3.6103, Acc: 0.2972 | Val Loss: 6.6216, Acc: 0.0474, Top_5_acc : 0.1156 
+{'conv1': 0.3612, 'layer1': 0.7577, 'layer2': 0.201, 'layer3': 0.1494, 'layer4': 0.7576, 'avgpool': 0.7576, 'fc': 6.2636}
+Epoch 2/15 | Train Loss: 1.8228, Acc: 0.5820 | Val Loss: 7.0054, Acc: 0.0511, Top_5_acc : 0.1493 
+{'conv1': 0.4276, 'layer1': 0.6696, 'layer2': 0.179, 'layer3': 0.1461, 'layer4': 0.8954, 'avgpool': 0.8954, 'fc': 9.0455}
+Epoch 3/15 | Train Loss: 1.3635, Acc: 0.6713 | Val Loss: 7.5168, Acc: 0.0506, Top_5_acc : 0.1217 
+{'conv1': 0.4762, 'layer1': 0.8649, 'layer2': 0.2219, 'layer3': 0.1785, 'layer4': 1.1524, 'avgpool': 1.1524, 'fc': 12.8524}
+Epoch 4/15 | Train Loss: 1.1162, Acc: 0.7240 | Val Loss: 6.7794, Acc: 0.0608, Top_5_acc : 0.1563 
+{'conv1': 0.664, 'layer1': 0.8495, 'layer2': 0.2224, 'layer3': 0.1732, 'layer4': 0.9284, 'avgpool': 0.9284, 'fc': 11.1663}
+Epoch 5/15 | Train Loss: 1.5701, Acc: 0.6194 | Val Loss: 1.6069, Acc: 0.6223, Top_5_acc : 0.8319 
+{'conv1': 0.5636, 'layer1': 1.0568, 'layer2': 0.3757, 'layer3': 0.2542, 'layer4': 1.0961, 'avgpool': 1.0961, 'fc': 17.817}
+Epoch 6/15 | Train Loss: 0.7273, Acc: 0.8040 | Val Loss: 1.5470, Acc: 0.6326, Top_5_acc : 0.8502 
+{'conv1': 0.7071, 'layer1': 1.0794, 'layer2': 0.3343, 'layer3': 0.2226, 'layer4': 0.5707, 'avgpool': 0.5707, 'fc': 9.5716}
+Epoch 7/15 | Train Loss: 0.3258, Acc: 0.9110 | Val Loss: 1.5267, Acc: 0.6614, Top_5_acc : 0.8509 
+{'conv1': 0.6363, 'layer1': 1.1086, 'layer2': 0.3073, 'layer3': 0.2853, 'layer4': 0.7535, 'avgpool': 0.7535, 'fc': 12.9099}
+Epoch 8/15 | Train Loss: 0.1358, Acc: 0.9641 | Val Loss: 1.3763, Acc: 0.6929, Top_5_acc : 0.8703 
+{'conv1': 0.6245, 'layer1': 1.0808, 'layer2': 0.308, 'layer3': 0.2364, 'layer4': 0.7015, 'avgpool': 0.7015, 'fc': 11.9604}
+Epoch 9/15 | Train Loss: 0.0556, Acc: 0.9884 | Val Loss: 1.2269, Acc: 0.7303, Top_5_acc : 0.8844 
+{'conv1': 0.7376, 'layer1': 1.0929, 'layer2': 0.3056, 'layer3': 0.2238, 'layer4': 0.5828, 'avgpool': 0.5828, 'fc': 9.8224}
+Epoch 10/15 | Train Loss: 0.0322, Acc: 0.9950 | Val Loss: 1.1303, Acc: 0.7463, Top_5_acc : 0.8982 
+{'conv1': 0.6793, 'layer1': 1.0498, 'layer2': 0.2942, 'layer3': 0.2269, 'layer4': 0.6674, 'avgpool': 0.6674, 'fc': 10.9589}
+Epoch 11/15 | Train Loss: 0.0115, Acc: 0.9987 | Val Loss: 1.0240, Acc: 0.7687, Top_5_acc : 0.9107 
+{'conv1': 0.6473, 'layer1': 1.0786, 'layer2': 0.3019, 'layer3': 0.2245, 'layer4': 0.6885, 'avgpool': 0.6885, 'fc': 10.9448}
+Epoch 12/15 | Train Loss: 0.0050, Acc: 0.9998 | Val Loss: 0.9842, Acc: 0.7783, Top_5_acc : 0.9124 
+{'conv1': 0.641, 'layer1': 1.0558, 'layer2': 0.3002, 'layer3': 0.2236, 'layer4': 0.6491, 'avgpool': 0.6491, 'fc': 9.9631}
+Epoch 13/15 | Train Loss: 0.0036, Acc: 0.9998 | Val Loss: 0.9674, Acc: 0.7849, Top_5_acc : 0.9141 
+{'conv1': 0.6115, 'layer1': 1.0273, 'layer2': 0.2924, 'layer3': 0.2199, 'layer4': 0.5926, 'avgpool': 0.5926, 'fc': 8.8414}
+Epoch 14/15 | Train Loss: 0.0044, Acc: 0.9996 | Val Loss: 0.9559, Acc: 0.7862, Top_5_acc : 0.9141 
+{'conv1': 0.6006, 'layer1': 1.0566, 'layer2': 0.2997, 'layer3': 0.2247, 'layer4': 0.6446, 'avgpool': 0.6446, 'fc': 9.447}
+Epoch 15/15 | Train Loss: 0.0027, Acc: 0.9999 | Val Loss: 0.9499, Acc: 0.7841, Top_5_acc : 0.9136 
+{'conv1': 0.661, 'layer1': 1.055, 'layer2': 0.296, 'layer3': 0.2202, 'layer4': 0.6477, 'avgpool': 0.6477, 'fc': 9.3841}
+Best run ---> val_acc : 0.7841 |Top5_acc : 0.9136 |val_loss : 0.9499
+
+
+
+
+-----------------------X------------------------X--------------------------X---------------------
+
+seed 7777
+
+1.) Baseline
+Epoch 1/15 | Train Loss: 2.9962, Acc: 0.3692 | Val Loss: 2.7155, Acc: 0.3958, Top_5_acc : 0.6421 
+{'conv1': 0.4571, 'layer1': 0.8063, 'layer2': 0.2641, 'layer3': 0.1939, 'layer4': 0.5968, 'avgpool': 0.5968, 'fc': 4.7715}
+Epoch 2/15 | Train Loss: 1.4068, Acc: 0.6508 | Val Loss: 1.7708, Acc: 0.5867, Top_5_acc : 0.8030 
+{'conv1': 0.5775, 'layer1': 0.9516, 'layer2': 0.286, 'layer3': 0.2484, 'layer4': 0.7473, 'avgpool': 0.7473, 'fc': 7.2833}
+Epoch 3/15 | Train Loss: 0.7373, Acc: 0.8074 | Val Loss: 1.7444, Acc: 0.5978, Top_5_acc : 0.8040 
+{'conv1': 0.5663, 'layer1': 0.8582, 'layer2': 0.2496, 'layer3': 0.1899, 'layer4': 1.0496, 'avgpool': 1.0496, 'fc': 11.4627}
+Epoch 4/15 | Train Loss: 0.3124, Acc: 0.9185 | Val Loss: 1.6858, Acc: 0.6297, Top_5_acc : 0.8255 
+{'conv1': 0.613, 'layer1': 0.9477, 'layer2': 0.2808, 'layer3': 0.2035, 'layer4': 0.6993, 'avgpool': 0.6993, 'fc': 8.1187}
+Epoch 5/15 | Train Loss: 0.1442, Acc: 0.9657 | Val Loss: 1.6120, Acc: 0.6514, Top_5_acc : 0.8381 
+{'conv1': 0.5969, 'layer1': 0.9047, 'layer2': 0.2743, 'layer3': 0.1992, 'layer4': 0.7396, 'avgpool': 0.7396, 'fc': 8.8924}
+Epoch 6/15 | Train Loss: 0.0661, Acc: 0.9862 | Val Loss: 1.5661, Acc: 0.6728, Top_5_acc : 0.8507 
+{'conv1': 0.6915, 'layer1': 0.9864, 'layer2': 0.2853, 'layer3': 0.2241, 'layer4': 1.0121, 'avgpool': 1.0121, 'fc': 12.2553}
+Epoch 7/15 | Train Loss: 0.0408, Acc: 0.9929 | Val Loss: 1.4460, Acc: 0.6851, Top_5_acc : 0.8579 
+{'conv1': 0.6384, 'layer1': 0.9379, 'layer2': 0.2674, 'layer3': 0.204, 'layer4': 0.7228, 'avgpool': 0.7228, 'fc': 8.6404}
+Epoch 8/15 | Train Loss: 0.0375, Acc: 0.9931 | Val Loss: 1.6808, Acc: 0.6650, Top_5_acc : 0.8425 
+{'conv1': 0.6044, 'layer1': 0.9623, 'layer2': 0.2826, 'layer3': 0.2008, 'layer4': 0.6738, 'avgpool': 0.6738, 'fc': 7.996}
+Epoch 9/15 | Train Loss: 0.0242, Acc: 0.9964 | Val Loss: 1.4061, Acc: 0.6998, Top_5_acc : 0.8620 
+{'conv1': 0.6033, 'layer1': 0.9103, 'layer2': 0.259, 'layer3': 0.1834, 'layer4': 0.6679, 'avgpool': 0.6679, 'fc': 7.7915}
+Epoch 10/15 | Train Loss: 0.0066, Acc: 0.9997 | Val Loss: 1.2909, Acc: 0.7123, Top_5_acc : 0.8736 
+{'conv1': 0.5965, 'layer1': 0.9296, 'layer2': 0.2645, 'layer3': 0.1739, 'layer4': 0.6516, 'avgpool': 0.6516, 'fc': 7.2518}
+Epoch 11/15 | Train Loss: 0.0055, Acc: 0.9998 | Val Loss: 1.2527, Acc: 0.7187, Top_5_acc : 0.8778 
+{'conv1': 0.6357, 'layer1': 0.9542, 'layer2': 0.2806, 'layer3': 0.1993, 'layer4': 0.646, 'avgpool': 0.646, 'fc': 6.8925}
+Epoch 12/15 | Train Loss: 0.0046, Acc: 0.9997 | Val Loss: 1.2334, Acc: 0.7254, Top_5_acc : 0.8814 
+{'conv1': 0.5897, 'layer1': 0.9073, 'layer2': 0.2597, 'layer3': 0.1841, 'layer4': 0.6854, 'avgpool': 0.6854, 'fc': 7.0096}
+Epoch 13/15 | Train Loss: 0.0030, Acc: 0.9999 | Val Loss: 1.2000, Acc: 0.7272, Top_5_acc : 0.8845 
+{'conv1': 0.5943, 'layer1': 0.8984, 'layer2': 0.256, 'layer3': 0.1908, 'layer4': 0.6629, 'avgpool': 0.6629, 'fc': 6.5177}
+Epoch 14/15 | Train Loss: 0.0027, Acc: 0.9998 | Val Loss: 1.1946, Acc: 0.7280, Top_5_acc : 0.8829 
+{'conv1': 0.5883, 'layer1': 0.8595, 'layer2': 0.2458, 'layer3': 0.1788, 'layer4': 0.6728, 'avgpool': 0.6728, 'fc': 6.4209}
+Epoch 15/15 | Train Loss: 0.0027, Acc: 0.9999 | Val Loss: 1.1899, Acc: 0.7315, Top_5_acc : 0.8835 
+{'conv1': 0.5999, 'layer1': 0.8757, 'layer2': 0.2489, 'layer3': 0.1843, 'layer4': 0.664, 'avgpool': 0.664, 'fc': 6.2513}
+Best run ---> val_acc : 0.7315 |Top5_acc : 0.8835 |val_loss : 1.1899
+2.)Edge + freeze
+Epoch 1/15 | Train Loss: 3.5936, Acc: 0.2974 | Val Loss: 6.5143, Acc: 0.0472, Top_5_acc : 0.1058 
+{'conv1': 0.3832, 'layer1': 0.6953, 'layer2': 0.1987, 'layer3': 0.1519, 'layer4': 1.1731, 'avgpool': 1.1731, 'fc': 9.7161}
+Epoch 2/15 | Train Loss: 1.8013, Acc: 0.5866 | Val Loss: 7.6393, Acc: 0.0436, Top_5_acc : 0.1067 
+{'conv1': 0.5025, 'layer1': 0.8552, 'layer2': 0.204, 'layer3': 0.147, 'layer4': 0.9432, 'avgpool': 0.9432, 'fc': 9.5753}
+Epoch 3/15 | Train Loss: 1.3460, Acc: 0.6742 | Val Loss: 7.0747, Acc: 0.0742, Top_5_acc : 0.1532 
+{'conv1': 0.5971, 'layer1': 0.9407, 'layer2': 0.2201, 'layer3': 0.1522, 'layer4': 0.8175, 'avgpool': 0.8175, 'fc': 9.2188}
+Epoch 4/15 | Train Loss: 1.0920, Acc: 0.7296 | Val Loss: 7.4020, Acc: 0.0622, Top_5_acc : 0.1377 
+{'conv1': 0.6283, 'layer1': 0.9115, 'layer2': 0.2401, 'layer3': 0.1564, 'layer4': 0.749, 'avgpool': 0.749, 'fc': 9.0553}
+Epoch 5/15 | Train Loss: 1.5979, Acc: 0.6108 | Val Loss: 1.8045, Acc: 0.5764, Top_5_acc : 0.7978 
+{'conv1': 0.5608, 'layer1': 0.8693, 'layer2': 0.2477, 'layer3': 0.2053, 'layer4': 0.5096, 'avgpool': 0.5096, 'fc': 8.2926}
+Epoch 6/15 | Train Loss: 0.7315, Acc: 0.8036 | Val Loss: 1.7154, Acc: 0.6085, Top_5_acc : 0.8290 
+{'conv1': 0.6494, 'layer1': 0.978, 'layer2': 0.2636, 'layer3': 0.2366, 'layer4': 0.5047, 'avgpool': 0.5047, 'fc': 8.4356}
+Epoch 7/15 | Train Loss: 0.3178, Acc: 0.9131 | Val Loss: 1.5425, Acc: 0.6630, Top_5_acc : 0.8437 
+{'conv1': 0.6875, 'layer1': 0.9981, 'layer2': 0.2624, 'layer3': 0.2786, 'layer4': 0.5224, 'avgpool': 0.5224, 'fc': 8.9118}
+Epoch 8/15 | Train Loss: 0.1337, Acc: 0.9666 | Val Loss: 1.5340, Acc: 0.6738, Top_5_acc : 0.8665 
+{'conv1': 0.6308, 'layer1': 0.973, 'layer2': 0.256, 'layer3': 0.2046, 'layer4': 0.5761, 'avgpool': 0.5761, 'fc': 9.7864}
+Epoch 9/15 | Train Loss: 0.0689, Acc: 0.9842 | Val Loss: 1.4074, Acc: 0.6908, Top_5_acc : 0.8657 
+{'conv1': 0.6364, 'layer1': 0.967, 'layer2': 0.2614, 'layer3': 0.2194, 'layer4': 0.499, 'avgpool': 0.499, 'fc': 8.4423}
+Epoch 10/15 | Train Loss: 0.0295, Acc: 0.9953 | Val Loss: 1.1408, Acc: 0.7409, Top_5_acc : 0.8973 
+{'conv1': 0.5933, 'layer1': 0.9338, 'layer2': 0.2504, 'layer3': 0.1994, 'layer4': 0.5209, 'avgpool': 0.5209, 'fc': 8.5702}
+Epoch 11/15 | Train Loss: 0.0123, Acc: 0.9988 | Val Loss: 1.1444, Acc: 0.7475, Top_5_acc : 0.8979 
+{'conv1': 0.6138, 'layer1': 0.9369, 'layer2': 0.2461, 'layer3': 0.193, 'layer4': 0.5608, 'avgpool': 0.5608, 'fc': 8.9335}
+Epoch 12/15 | Train Loss: 0.0086, Acc: 0.9993 | Val Loss: 1.0222, Acc: 0.7692, Top_5_acc : 0.9111 
+{'conv1': 0.5972, 'layer1': 0.91, 'layer2': 0.2452, 'layer3': 0.1797, 'layer4': 0.6349, 'avgpool': 0.6349, 'fc': 9.8066}
+Epoch 13/15 | Train Loss: 0.0037, Acc: 0.9998 | Val Loss: 0.9861, Acc: 0.7712, Top_5_acc : 0.9151 
+{'conv1': 0.5606, 'layer1': 0.8841, 'layer2': 0.2369, 'layer3': 0.171, 'layer4': 0.5888, 'avgpool': 0.5888, 'fc': 8.8302}
+Epoch 14/15 | Train Loss: 0.0031, Acc: 0.9998 | Val Loss: 0.9759, Acc: 0.7730, Top_5_acc : 0.9144 
+{'conv1': 0.5514, 'layer1': 0.9206, 'layer2': 0.2525, 'layer3': 0.1855, 'layer4': 0.618, 'avgpool': 0.618, 'fc': 9.09}
+Epoch 15/15 | Train Loss: 0.0026, Acc: 0.9999 | Val Loss: 0.9703, Acc: 0.7762, Top_5_acc : 0.9141 
+{'conv1': 0.5449, 'layer1': 0.9046, 'layer2': 0.2477, 'layer3': 0.1826, 'layer4': 0.6197, 'avgpool': 0.6197, 'fc': 9.0263}
+Best run ---> val_acc : 0.7762 |Top5_acc : 0.9141 |val_loss : 0.9703

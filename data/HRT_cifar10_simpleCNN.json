@@ -1,0 +1,156 @@
+[{
+  "seed": 42,
+  "BATCH_SIZE": 64,
+  "EPOCHS": 10,
+  "LEARNING_RATE": 0.001,
+  "dataset": "cifar-10",
+  "model": "simple CNN",
+  "Baseline": [
+      {"epoch": 1, "train_loss": 1.5084, "train_acc": 0.4591, "val_loss": 1.3509, "val_acc": 0.5160},
+      {"epoch": 2, "train_loss": 1.1454, "train_acc": 0.5947, "val_loss": 1.0535, "val_acc": 0.6319},
+      {"epoch": 3, "train_loss": 1.0058, "train_acc": 0.6487, "val_loss": 1.0430, "val_acc": 0.6401},
+      {"epoch": 4, "train_loss": 0.9133, "train_acc": 0.6780, "val_loss": 0.9531, "val_acc": 0.6656},
+      {"epoch": 5, "train_loss": 0.8474, "train_acc": 0.7028, "val_loss": 0.9509, "val_acc": 0.6688},
+      {"epoch": 6, "train_loss": 0.7878, "train_acc": 0.7249, "val_loss": 0.9096, "val_acc": 0.6865},
+      {"epoch": 7, "train_loss": 0.7365, "train_acc": 0.7413, "val_loss": 0.8992, "val_acc": 0.6937},
+      {"epoch": 8, "train_loss": 0.6835, "train_acc": 0.7612, "val_loss": 0.8997, "val_acc": 0.6951},
+      {"epoch": 9, "train_loss": 0.6442, "train_acc": 0.7752, "val_loss": 0.8936, "val_acc": 0.6961},
+      {"epoch": 10, "train_loss": 0.5976, "train_acc": 0.7909, "val_loss": 0.8976, "val_acc": 0.7025}
+    ],
+    "Edge": [
+      {"epoch": 1, "train_loss": 1.5888, "train_acc": 0.4382, "val_loss": 2.4830, "val_acc": 0.2132},
+      {"epoch": 2, "train_loss": 1.2135, "train_acc": 0.5792, "val_loss": 2.7121, "val_acc": 0.1398},
+      {"epoch": 3, "train_loss": 1.0489, "train_acc": 0.6347, "val_loss": 3.5558, "val_acc": 0.1561},
+      {"epoch": 4, "train_loss": 0.9344, "train_acc": 0.6786, "val_loss": 3.3424, "val_acc": 0.1470},
+      {"epoch": 5, "train_loss": 1.0284, "train_acc": 0.6409, "val_loss": 0.9565, "val_acc": 0.6642},
+      {"epoch": 6, "train_loss": 0.7966, "train_acc": 0.7222, "val_loss": 0.8890, "val_acc": 0.6928},
+      {"epoch": 7, "train_loss": 0.6937, "train_acc": 0.7565, "val_loss": 0.8296, "val_acc": 0.7172},
+      {"epoch": 8, "train_loss": 0.6119, "train_acc": 0.7871, "val_loss": 0.8305, "val_acc": 0.7233},
+      {"epoch": 9, "train_loss": 0.5442, "train_acc": 0.8094, "val_loss": 0.7970, "val_acc": 0.7333},
+      {"epoch": 10, "train_loss": 0.4758, "train_acc": 0.8351, "val_loss": 0.8184, "val_acc": 0.7304}
+    ]
+  },
+{
+  "seed": 123,
+  "BATCH_SIZE": 64,
+  "EPOCHS": 10,
+  "LEARNING_RATE": 0.001,
+  "dataset": "cifar-10",
+  "model": "simple CNN",
+  "experiments": [
+    {
+      "name": "Baseline",
+      "epochs": [
+        {"epoch": 1, "train_loss": 1.4854, "train_acc": 0.4660, "val_loss": 1.2189, "val_acc": 0.5668, "layer_losses": {"Input": 0.4618581235408783, "ConvBlock1": 0.1390569657087326, "ConvBlock2": 0.09439846873283386, "LinearHidden": 0.7327600121498108, "Output_logits": 1.7623356580734253}},
+        {"epoch": 2, "train_loss": 1.1089, "train_acc": 0.6089, "val_loss": 1.0311, "val_acc": 0.6401, "layer_losses": {"Input": 0.5052785873413086, "ConvBlock1": 0.12407485395669937, "ConvBlock2": 0.08407872915267944, "LinearHidden": 0.6814555525779724, "Output_logits": 1.937993049621582}},
+        {"epoch": 3, "train_loss": 0.9547, "train_acc": 0.6644, "val_loss": 0.9849, "val_acc": 0.6568, "layer_losses": {"Input": 0.4624122083187103, "ConvBlock1": 0.11577151715755463, "ConvBlock2": 0.09631537646055222, "LinearHidden": 0.7330728769302368, "Output_logits": 2.4649627208709717}},
+        {"epoch": 4, "train_loss": 0.8544, "train_acc": 0.6998, "val_loss": 0.9589, "val_acc": 0.6692, "layer_losses": {"Input": 0.46747398376464844, "ConvBlock1": 0.11511261761188507, "ConvBlock2": 0.07975784689188004, "LinearHidden": 0.6246703267097473, "Output_logits": 2.4140069484710693}},
+        {"epoch": 5, "train_loss": 0.7739, "train_acc": 0.7290, "val_loss": 0.9142, "val_acc": 0.6866, "layer_losses": {"Input": 0.48461389541625977, "ConvBlock1": 0.10856354981660843, "ConvBlock2": 0.08534324169158936, "LinearHidden": 0.6434528827667236, "Output_logits": 2.897036552429199}},
+        {"epoch": 6, "train_loss": 0.7063, "train_acc": 0.7510, "val_loss": 0.8979, "val_acc": 0.6946, "layer_losses": {"Input": 0.47122710943222046, "ConvBlock1": 0.1155066192150116, "ConvBlock2": 0.09075068682432175, "LinearHidden": 0.6800428628921509, "Output_logits": 3.1659181118011475}},
+        {"epoch": 7, "train_loss": 0.6417, "train_acc": 0.7745, "val_loss": 0.8687, "val_acc": 0.7013, "layer_losses": {"Input": 0.48197004199028015, "ConvBlock1": 0.11863163113594055, "ConvBlock2": 0.09426134824752808, "LinearHidden": 0.6671130061149597, "Output_logits": 3.4429147243499756}},
+        {"epoch": 8, "train_loss": 0.5800, "train_acc": 0.7945, "val_loss": 0.8923, "val_acc": 0.7053, "layer_losses": {"Input": 0.47419190406799316, "ConvBlock1": 0.11859850585460663, "ConvBlock2": 0.09818501770496368, "LinearHidden": 0.7230502367019653, "Output_logits": 3.8593242168426514}},
+        {"epoch": 9, "train_loss": 0.5212, "train_acc": 0.8165, "val_loss": 0.9048, "val_acc": 0.7043, "layer_losses": {"Input": 0.480644166469574, "ConvBlock1": 0.12585468590259552, "ConvBlock2": 0.09253101050853729, "LinearHidden": 0.7049831748008728, "Output_logits": 4.193190097808838}},
+        {"epoch": 10, "train_loss": 0.4652, "train_acc": 0.8359, "val_loss": 0.9448, "val_acc": 0.7056, "layer_losses": {"Input": 0.4835709035396576, "ConvBlock1": 0.11911625415086746, "ConvBlock2": 0.10159341990947723, "LinearHidden": 0.7337383031845093, "Output_logits": 4.262388706207275}}
+      ]
+    },
+    {
+      "name": "Edge training",
+      "epochs": [
+        {"epoch": 1, "train_loss": 1.5975, "train_acc": 0.4322, "val_loss": 3.0780, "val_acc": 0.1474, "layer_losses": {"Input": 0.4413391947746277, "ConvBlock1": 0.11868266761302948, "ConvBlock2": 0.0890410840511322, "LinearHidden": 0.5687994360923767, "Output_logits": 1.574959635734558}},
+        {"epoch": 2, "train_loss": 1.2202, "train_acc": 0.5766, "val_loss": 2.8229, "val_acc": 0.1638, "layer_losses": {"Input": 0.4407849907875061, "ConvBlock1": 0.09075496345758438, "ConvBlock2": 0.0853831022977829, "LinearHidden": 0.5597962737083435, "Output_logits": 1.6193472146987915}},
+        {"epoch": 3, "train_loss": 1.0725, "train_acc": 0.6318, "val_loss": 3.2788, "val_acc": 0.1353, "layer_losses": {"Input": 0.4943976402282715, "ConvBlock1": 0.09354332089424133, "ConvBlock2": 0.0839109867811203, "LinearHidden": 0.558878481388092, "Output_logits": 1.7802410125732422}},
+        {"epoch": 4, "train_loss": 0.9681, "train_acc": 0.6660, "val_loss": 2.7991, "val_acc": 0.1949, "layer_losses": {"Input": 0.47654271125793457, "ConvBlock1": 0.07957318425178528, "ConvBlock2": 0.08715350180864334, "LinearHidden": 0.595224916934967, "Output_logits": 1.9185419082641602}},
+        {"epoch": 5, "train_loss": 1.0257, "train_acc": 0.6407, "val_loss": 0.9477, "val_acc": 0.6693, "layer_losses": {"Input": 0.4682387113571167, "ConvBlock1": 0.0777219906449318, "ConvBlock2": 0.08675219118595123, "LinearHidden": 0.6043170094490051, "Output_logits": 2.3211510181427}},
+        {"epoch": 6, "train_loss": 0.8102, "train_acc": 0.7192, "val_loss": 0.8819, "val_acc": 0.6887, "layer_losses": {"Input": 0.46381574869155884, "ConvBlock1": 0.07812359929084778, "ConvBlock2": 0.08259107172489166, "LinearHidden": 0.630455732345581, "Output_logits": 2.8466622829437256}},
+        {"epoch": 7, "train_loss": 0.7112, "train_acc": 0.7508, "val_loss": 0.8564, "val_acc": 0.7066, "layer_losses": {"Input": 0.47576266527175903, "ConvBlock1": 0.07782403379678726, "ConvBlock2": 0.08262710273265839, "LinearHidden": 0.5891083478927612, "Output_logits": 2.8113021850585938}},
+        {"epoch": 8, "train_loss": 0.6390, "train_acc": 0.7767, "val_loss": 0.8268, "val_acc": 0.7158, "layer_losses": {"Input": 0.4855778217315674, "ConvBlock1": 0.08226171135902405, "ConvBlock2": 0.08412826806306839, "LinearHidden": 0.5971285104751587, "Output_logits": 3.1152522563934326}},
+        {"epoch": 9, "train_loss": 0.5805, "train_acc": 0.7983, "val_loss": 0.8270, "val_acc": 0.7206, "layer_losses": {"Input": 0.4670585095882416, "ConvBlock1": 0.08264230191707611, "ConvBlock2": 0.08765313029289246, "LinearHidden": 0.6201503872871399, "Output_logits": 3.499135732650757}},
+        {"epoch": 10, "train_loss": 0.5178, "train_acc": 0.8197, "val_loss": 0.8059, "val_acc": 0.7281, "layer_losses": {"Input": 0.4695565700531006, "ConvBlock1": 0.08143390715122223, "ConvBlock2": 0.07984809577465057, "LinearHidden": 0.5682879686355591, "Output_logits": 3.3417136669158936}}
+      ]
+    }
+  ]
+},
+{
+  "seed": 3407,
+  "BATCH_SIZE": 64,
+  "EPOCHS": 10,
+  "LEARNING_RATE": 0.001,
+  "dataset": "cifar-10",
+  "model": "simple CNN",
+  "experiments": [
+    {
+      "name": "Baseline",
+      "epochs": [
+        {"epoch": 1, "train_loss": 1.4716, "train_acc": 0.4708, "val_loss": 1.2334, "val_acc": 0.5611, "layer_losses": {"Input": 0.43946200609207153, "ConvBlock1": 0.10646478831768036, "ConvBlock2": 0.11443670094013214, "LinearHidden": 0.8453798890113831, "Output_logits": 2.03195858001709}},
+        {"epoch": 2, "train_loss": 1.1049, "train_acc": 0.6067, "val_loss": 1.0484, "val_acc": 0.6315, "layer_losses": {"Input": 0.46992382407188416, "ConvBlock1": 0.10423573851585388, "ConvBlock2": 0.0914151519536972, "LinearHidden": 0.6784868240356445, "Output_logits": 1.980634331703186}},
+        {"epoch": 3, "train_loss": 0.9569, "train_acc": 0.6613, "val_loss": 0.9576, "val_acc": 0.6647, "layer_losses": {"Input": 0.4780614376068115, "ConvBlock1": 0.09765235334634781, "ConvBlock2": 0.09457240253686905, "LinearHidden": 0.7179872989654541, "Output_logits": 2.537152051925659}},
+        {"epoch": 4, "train_loss": 0.8574, "train_acc": 0.6985, "val_loss": 0.9852, "val_acc": 0.6651, "layer_losses": {"Input": 0.46941179037094116, "ConvBlock1": 0.09813956916332245, "ConvBlock2": 0.09304382652044296, "LinearHidden": 0.6511045694351196, "Output_logits": 2.622750997543335}},
+        {"epoch": 5, "train_loss": 0.7830, "train_acc": 0.7248, "val_loss": 0.8687, "val_acc": 0.6992, "layer_losses": {"Input": 0.4622877538204193, "ConvBlock1": 0.09590966254472733, "ConvBlock2": 0.09573572874069214, "LinearHidden": 0.6616808772087097, "Output_logits": 2.9359211921691895}},
+        {"epoch": 6, "train_loss": 0.7177, "train_acc": 0.7500, "val_loss": 0.8964, "val_acc": 0.6898, "layer_losses": {"Input": 0.48452457785606384, "ConvBlock1": 0.10458511859178543, "ConvBlock2": 0.09428568184375763, "LinearHidden": 0.6025097370147705, "Output_logits": 2.8034350872039795}},
+        {"epoch": 7, "train_loss": 0.6573, "train_acc": 0.7696, "val_loss": 0.8673, "val_acc": 0.7102, "layer_losses": {"Input": 0.47190070152282715, "ConvBlock1": 0.09986080974340439, "ConvBlock2": 0.09445226192474365, "LinearHidden": 0.7106361389160156, "Output_logits": 3.6232967376708984}},
+        {"epoch": 8, "train_loss": 0.5953, "train_acc": 0.7917, "val_loss": 0.9160, "val_acc": 0.6914, "layer_losses": {"Input": 0.4865272045135498, "ConvBlock1": 0.10800746083259583, "ConvBlock2": 0.08736623078584671, "LinearHidden": 0.5461684465408325, "Output_logits": 3.174931287765503}},
+        {"epoch": 9, "train_loss": 0.5380, "train_acc": 0.8121, "val_loss": 0.8965, "val_acc": 0.7058, "layer_losses": {"Input": 0.43944621086120605, "ConvBlock1": 0.10183709859848022, "ConvBlock2": 0.09634114056825638, "LinearHidden": 0.6239438056945801, "Output_logits": 3.8130195140838623}},
+        {"epoch": 10, "train_loss": 0.4781, "train_acc": 0.8312, "val_loss": 0.9812, "val_acc": 0.6857, "layer_losses": {"Input": 0.4672151803970337, "ConvBlock1": 0.1026328057050705, "ConvBlock2": 0.10007103532552719, "LinearHidden": 0.6678333282470703, "Output_logits": 4.167808532714844}}
+      ]
+    },
+    {
+      "name": "Edge training",
+      "epochs": [
+        {"epoch": 1, "train_loss": 1.6234, "train_acc": 0.4208, "val_loss": 2.8853, "val_acc": 0.1575, "layer_losses": {"Input": 0.4832901954650879, "ConvBlock1": 0.1384507715702057, "ConvBlock2": 0.0731474980711937, "LinearHidden": 0.5779969692230225, "Output_logits": 1.4212526082992554}},
+        {"epoch": 2, "train_loss": 1.2515, "train_acc": 0.5646, "val_loss": 2.7718, "val_acc": 0.1679, "layer_losses": {"Input": 0.47859644889831543, "ConvBlock1": 0.09562049806118011, "ConvBlock2": 0.07413017749786377, "LinearHidden": 0.5075594186782837, "Output_logits": 1.4463071823120117}},
+        {"epoch": 3, "train_loss": 1.0861, "train_acc": 0.6254, "val_loss": 3.2696, "val_acc": 0.1201, "layer_losses": {"Input": 0.4652319848537445, "ConvBlock1": 0.08225326240062714, "ConvBlock2": 0.07922758162021637, "LinearHidden": 0.48708879947662354, "Output_logits": 1.91290283203125}},
+        {"epoch": 4, "train_loss": 0.9565, "train_acc": 0.6709, "val_loss": 3.9560, "val_acc": 0.1315, "layer_losses": {"Input": 0.46432584524154663, "ConvBlock1": 0.07743749022483826, "ConvBlock2": 0.08840478956699371, "LinearHidden": 0.6030263900756836, "Output_logits": 2.6547513008117676}},
+        {"epoch": 5, "train_loss": 1.0503, "train_acc": 0.6329, "val_loss": 0.9483, "val_acc": 0.6689, "layer_losses": {"Input": 0.48885902762413025, "ConvBlock1": 0.07915863394737244, "ConvBlock2": 0.0684555321931839, "LinearHidden": 0.5488061904907227, "Output_logits": 2.3440043926239014}},
+        {"epoch": 6, "train_loss": 0.8145, "train_acc": 0.7179, "val_loss": 0.8954, "val_acc": 0.6879, "layer_losses": {"Input": 0.4621785581111908, "ConvBlock1": 0.0793309211730957, "ConvBlock2": 0.06532379239797592, "LinearHidden": 0.4899965524673462, "Output_logits": 2.1908538341522217}},
+        {"epoch": 7, "train_loss": 0.7130, "train_acc": 0.7518, "val_loss": 0.8193, "val_acc": 0.7163, "layer_losses": {"Input": 0.44255179166793823, "ConvBlock1": 0.08030430972576141, "ConvBlock2": 0.07504238933324814, "LinearHidden": 0.6091858148574829, "Output_logits": 3.1187939643859863}},
+        {"epoch": 8, "train_loss": 0.6334, "train_acc": 0.7797, "val_loss": 0.8142, "val_acc": 0.7267, "layer_losses": {"Input": 0.4814854562282562, "ConvBlock1": 0.08507555723190308, "ConvBlock2": 0.07707186043262482, "LinearHidden": 0.5994236469268799, "Output_logits": 3.2555978298187256}},
+        {"epoch": 9, "train_loss": 0.5650, "train_acc": 0.8022, "val_loss": 0.7901, "val_acc": 0.7279, "layer_losses": {"Input": 0.4713163375854492, "ConvBlock1": 0.08068932592868805, "ConvBlock2": 0.07628890872001648, "LinearHidden": 0.5730903148651123, "Output_logits": 3.542245864868164}},
+        {"epoch": 10, "train_loss": 0.5030, "train_acc": 0.8233, "val_loss": 0.8390, "val_acc": 0.7227, "layer_losses": {"Input": 0.5022403597831726, "ConvBlock1": 0.07890923321247101, "ConvBlock2": 0.07999831438064575, "LinearHidden": 0.5907745361328125, "Output_logits": 3.8648178577423096}}
+      ]
+    }
+  ]
+},
+{
+  "seed": 7777,
+  "BATCH_SIZE": 64,
+  "EPOCHS": 10,
+  "LEARNING_RATE": 0.001,
+  "dataset": "cifar-10",
+  "model": "simple CNN",
+  "experiments": [
+    {
+      "name": "Baseline",
+      "epochs": [
+        {"epoch": 1, "train_loss": 1.4848, "train_acc": 0.4647, "val_loss": 1.2101, "val_acc": 0.5683, "layer_losses": {"Input": 0.46098265051841736, "ConvBlock1": 0.1276850700378418, "ConvBlock2": 0.0928993672132492, "LinearHidden": 0.7080621719360352, "Output_logits": 1.6396034955978394}},
+        {"epoch": 2, "train_loss": 1.1486, "train_acc": 0.5933, "val_loss": 1.0639, "val_acc": 0.6255, "layer_losses": {"Input": 0.4864688813686371, "ConvBlock1": 0.10460729897022247, "ConvBlock2": 0.08492696285247803, "LinearHidden": 0.7163443565368652, "Output_logits": 1.8333698511123657}},
+        {"epoch": 3, "train_loss": 0.9967, "train_acc": 0.6488, "val_loss": 1.0306, "val_acc": 0.6361, "layer_losses": {"Input": 0.4647756814956665, "ConvBlock1": 0.09591316431760788, "ConvBlock2": 0.08959085494279861, "LinearHidden": 0.6907799243927002, "Output_logits": 2.1761600971221924}},
+        {"epoch": 4, "train_loss": 0.9042, "train_acc": 0.6817, "val_loss": 1.0135, "val_acc": 0.6457, "layer_losses": {"Input": 0.4320048689842224, "ConvBlock1": 0.09513122588396072, "ConvBlock2": 0.08740104734897614, "LinearHidden": 0.6349797248840332, "Output_logits": 2.3666625022888184}},
+        {"epoch": 5, "train_loss": 0.8334, "train_acc": 0.7062, "val_loss": 0.9107, "val_acc": 0.6861, "layer_losses": {"Input": 0.480426549911499, "ConvBlock1": 0.09898056089878082, "ConvBlock2": 0.09199540317058563, "LinearHidden": 0.7228307723999023, "Output_logits": 2.7011890411376953}},
+        {"epoch": 6, "train_loss": 0.7691, "train_acc": 0.7329, "val_loss": 0.8923, "val_acc": 0.6931, "layer_losses": {"Input": 0.4788299798965454, "ConvBlock1": 0.09420064836740494, "ConvBlock2": 0.08875606209039688, "LinearHidden": 0.70499187707901, "Output_logits": 2.9507739543914795}},
+        {"epoch": 7, "train_loss": 0.7085, "train_acc": 0.7517, "val_loss": 0.8759, "val_acc": 0.7022, "layer_losses": {"Input": 0.4804936647415161, "ConvBlock1": 0.09177783876657486, "ConvBlock2": 0.08382289856672287, "LinearHidden": 0.6282824873924255, "Output_logits": 2.9199628829956055}},
+        {"epoch": 8, "train_loss": 0.6530, "train_acc": 0.7705, "val_loss": 0.8796, "val_acc": 0.7079, "layer_losses": {"Input": 0.45875024795532227, "ConvBlock1": 0.0937257781624794, "ConvBlock2": 0.09477047622203827, "LinearHidden": 0.6751837134361267, "Output_logits": 3.2379186153411865}},
+        {"epoch": 9, "train_loss": 0.6011, "train_acc": 0.7876, "val_loss": 0.8974, "val_acc": 0.7038, "layer_losses": {"Input": 0.47641462087631226, "ConvBlock1": 0.09502235800027847, "ConvBlock2": 0.09741481393575668, "LinearHidden": 0.6873499155044556, "Output_logits": 3.314399003982544}},
+        {"epoch": 10, "train_loss": 0.5500, "train_acc": 0.8048, "val_loss": 0.9049, "val_acc": 0.7027, "layer_losses": {"Input": 0.4718237519264221, "ConvBlock1": 0.09732700884342194, "ConvBlock2": 0.0988597571849823, "LinearHidden": 0.6975950002670288, "Output_logits": 3.7913804054260254}}
+      ]
+    },
+    {
+      "name": "Edge training",
+      "epochs": [
+        {"epoch": 1, "train_loss": 1.6282, "train_acc": 0.4201, "val_loss": 2.9377, "val_acc": 0.1642, "layer_losses": {"Input": 0.5008531808853149, "ConvBlock1": 0.11855942755937576, "ConvBlock2": 0.0699789971113205, "LinearHidden": 0.5862479209899902, "Output_logits": 1.4713877439498901}},
+        {"epoch": 2, "train_loss": 1.2549, "train_acc": 0.5634, "val_loss": 2.7381, "val_acc": 0.1612, "layer_losses": {"Input": 0.4481494426727295, "ConvBlock1": 0.0792270079255104, "ConvBlock2": 0.06185339018702507, "LinearHidden": 0.4707072377204895, "Output_logits": 1.3688827753067017}},
+        {"epoch": 3, "train_loss": 1.0907, "train_acc": 0.6231, "val_loss": 2.9381, "val_acc": 0.1637, "layer_losses": {"Input": 0.4744144082069397, "ConvBlock1": 0.07444548606872559, "ConvBlock2": 0.06897026300430298, "LinearHidden": 0.4739970564842224, "Output_logits": 1.6305032968521118}},
+        {"epoch": 4, "train_loss": 0.9709, "train_acc": 0.6648, "val_loss": 2.9981, "val_acc": 0.1622, "layer_losses": {"Input": 0.4619073271751404, "ConvBlock1": 0.07148085534572601, "ConvBlock2": 0.07335270941257477, "LinearHidden": 0.4865334630012512, "Output_logits": 1.9235175848007202}},
+        {"epoch": 5, "train_loss": 1.0397, "train_acc": 0.6363, "val_loss": 0.9093, "val_acc": 0.6844, "layer_losses": {"Input": 0.4792998433113098, "ConvBlock1": 0.06867673993110657, "ConvBlock2": 0.07600533217191696, "LinearHidden": 0.5932378768920898, "Output_logits": 2.5054514408111572}},
+        {"epoch": 6, "train_loss": 0.8100, "train_acc": 0.7179, "val_loss": 0.8611, "val_acc": 0.7048, "layer_losses": {"Input": 0.4652172327041626, "ConvBlock1": 0.06757154315710068, "ConvBlock2": 0.07054051011800766, "LinearHidden": 0.5819262266159058, "Output_logits": 2.7975335121154785}},
+        {"epoch": 7, "train_loss": 0.7109, "train_acc": 0.7516, "val_loss": 0.8029, "val_acc": 0.7215, "layer_losses": {"Input": 0.4798146188259125, "ConvBlock1": 0.06594829261302948, "ConvBlock2": 0.06134306266903877, "LinearHidden": 0.5163536071777344, "Output_logits": 2.78961443901062}},
+        {"epoch": 8, "train_loss": 0.6363, "train_acc": 0.7774, "val_loss": 0.8391, "val_acc": 0.7135, "layer_losses": {"Input": 0.4967702329158783, "ConvBlock1": 0.06694066524505615, "ConvBlock2": 0.07534044981002808, "LinearHidden": 0.590932309627533, "Output_logits": 3.3321480751037598}},
+        {"epoch": 9, "train_loss": 0.5778, "train_acc": 0.7977, "val_loss": 0.8270, "val_acc": 0.7227, "layer_losses": {"Input": 0.47778695821762085, "ConvBlock1": 0.07163339853286743, "ConvBlock2": 0.0726964920759201, "LinearHidden": 0.5809489488601685, "Output_logits": 3.54941725730896}},
+        {"epoch": 10, "train_loss": 0.5139, "train_acc": 0.8202, "val_loss": 0.8334, "val_acc": 0.7224, "layer_losses": {"Input": 0.47461575269699097, "ConvBlock1": 0.07142141461372375, "ConvBlock2": 0.07328592240810394, "LinearHidden": 0.615850567817688, "Output_logits": 4.0885162353515625}}
+      ]
+    }
+  ]
+}
+
+
+]
+
