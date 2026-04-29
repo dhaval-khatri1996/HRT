@@ -1,4 +1,4 @@
 # HRT
 Hierarchical Resolution Training
 
-(It is not an original idea or a full scale research paper. It is just a philosophical hypothesis.)
+(Next Step: Making architecture from scratch.) Making smaller models that understand better and are easier to reason with. Which are also easier to follow along with and can be seen more than a black box.
